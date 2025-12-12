@@ -1,0 +1,77 @@
+body {
+    background: #0f1433;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    color: white;
+}
+.container {
+    background: #1e2a55;
+    padding: 20px;
+    border-radius: 10px;
+    width: 420px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input-group {
+    display: flex;
+    gap: 5px;
+}
+.input-group input,
+.input-group button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.input-group input {
+    flex: 1;
+}
+#addBtn {
+    background: #4c8bff;
+    color: white;
+    cursor: pointer;
+}
+.filter-group {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.filter-group button{
+    background: #34457c;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    color: white;
+}
+th, td {
+    padding: 8px 5px;
+    border-bottom: 1px solid #4a578a;
+}
+.empty td {
+    text-align: center;
+    padding: 20px;
+    opacity: 0.7;
+}
+.status-done {
+    color: lightgreen;
+    font-weight: bold;
+}
+.action-btn {
+    background: #e74c3c;
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
